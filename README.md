@@ -175,3 +175,27 @@ You can find instructions for other ways to use Neo4j (Neo4j Desktop, Neo4j Aura
 
 This project is licensed under the Apache License v2.
 Copyright (c) 2020 Neo4j, Inc.
+
+## Arrows Tool
+<details><summary>Arrows markup</summary>
+<p>
+```
+<ul class="graph-diagram-markup" data-internal-scale="1" data-external-scale="1">
+  <li class="node" data-node-id="1" data-x="-188.98256742954254" data-y="-11.998880386352539">
+    <span class="caption">Listing</span><dl class="properties"><dt>listingId</dt><dd>String</dd><dt>askingPrice</dt><dd>Int</dd></dl></li>
+  <li class="node" data-node-id="2" data-x="-656.088136434555" data-y="-372.05089569091797">
+    <span class="caption">User</span><dl class="properties"><dt>id</dt><dd>String</dd><dt>name</dt><dd>String</dd></dl></li>
+  <li class="node" data-node-id="3" data-x="502.1280059814453" data-y="-545.7136468887329">
+    <span class="caption">City</span><dl class="properties"><dt>name</dt><dd>String</dd></dl></li>
+  <li class="node" data-node-id="4" data-x="133.98764538764954" data-y="-372.05089569091797">
+    <span class="caption">Property</span><dl class="properties"><dt>address</dt><dd>String</dd><dt>location</dt><dd>Point</dd><dt>bounds</dt><dd>[Point]</dd></dl></li>
+  <li class="relationship" data-from="3" data-to="4"></li>
+  <li class="relationship" data-from="1" data-to="4">
+    <span class="type">OF</span>
+  </li>
+  <li class="relationship" data-from="2" data-to="1">
+    <span class="type">SAVED</span><dl class="properties"><dt>createdAt</dt><dd>DateTime</dd></dl></li>
+</ul>
+```
+</p>
+</details>
